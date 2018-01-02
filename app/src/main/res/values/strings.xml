@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SmartVib</string>
+    <string name="action_settings">Settings</string>
+    <string name="device_types">Select the device type!</string>
+    <string name="action_sender">SENDER</string>
+    <string name="action_receiver">RECEIVER</string>
+    <string name="title_activity_sender">Sender</string>
+    <string name="action_send">SEND</string>
+    <string name="action_ready">READY</string>
+    <string name="action_stop">STOP</string>
+    <string name="output">Output</string>
+</resources>

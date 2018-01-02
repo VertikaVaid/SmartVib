@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.vertika.smartvib.ActionSelect"
+    tools:showIn="@layout/activity_action_select">
+
+    <TextView
+        android:id="@+id/textScreen1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="115dp"
+        android:textSize="20sp"
+        android:text="@string/device_types" />
+
+    <Button
+        android:id="@+id/buttonSender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textScreen1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textScreen1"
+        android:layout_marginBottom="152dp"
+        android:text="@string/action_sender" />
+
+    <Button
+        android:id="@+id/buttonReceiver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonSender"
+        android:layout_alignBottom="@+id/buttonSender"
+        android:layout_alignEnd="@+id/textScreen1"
+        android:layout_alignRight="@+id/textScreen1"
+        android:text="@string/action_receiver" />
+</android.widget.RelativeLayout>

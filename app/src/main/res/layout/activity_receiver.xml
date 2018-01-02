@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/tvXValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:width="250dp" />
+
+    <TextView
+        android:id="@+id/tvYValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvXValue"
+        android:layout_centerHorizontal="true"
+        android:width="250dp" />
+
+    <TextView
+        android:id="@+id/tvZValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvYValue"
+        android:layout_centerHorizontal="true"
+        android:width="250dp" />
+
+    <TextView
+        android:id="@+id/tvNx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvZValue"
+        android:layout_centerHorizontal="true"
+        android:width="250dp" />
+
+    <TextView
+        android:id="@+id/tvNy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvNx"
+        android:layout_centerHorizontal="true"
+        android:width="250dp" />
+
+    <TextView
+        android:id="@+id/tvNz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvNy"
+        android:layout_centerHorizontal="true"
+        android:width="250dp" />
+
+    <TextView
+        android:id="@+id/tvNValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvNz"
+        android:layout_centerHorizontal="true"
+        android:width="250dp" />
+
+    <TextView
+        android:id="@+id/tvMean"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvNValue"
+        android:layout_centerHorizontal="true"
+        android:width="250dp" />
+
+    <TextView
+        android:id="@+id/tvSD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvMean"
+        android:layout_centerHorizontal="true"
+        android:width="250dp" />
+
+    <TextView
+        android:id="@+id/tvOverallVibration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvSD"
+        android:layout_centerHorizontal="true"
+        android:width="250dp" />
+
+    <TextView
+        android:id="@+id/tvIsBeaconValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvOverallVibration"
+        android:layout_centerHorizontal="true"
+        android:width="250dp" />
+
+    <TextView
+        android:id="@+id/tvBitsRecvdVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvIsBeaconValue"
+        android:layout_centerHorizontal="true"
+        android:width="250dp" />
+
+    <TextView
+        android:id="@+id/tvDecodedData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnBack"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="33dp"
+        android:width="300dp"
+        android:height="100dp" />
+
+
+
+
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvDecodedData"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/tvDecodedData"
+        android:layout_marginBottom="34dp"
+        android:text="Back" />
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnBack"
+        android:layout_alignEnd="@+id/tvDecodedData"
+        android:layout_alignRight="@+id/tvDecodedData"
+        android:text="Clear" />
+
+</android.widget.RelativeLayout>
