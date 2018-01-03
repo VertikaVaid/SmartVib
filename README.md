@@ -13,3 +13,7 @@ In this project, we used Android Studio to develop an Android application for sm
 * The performance of communication depends a lot on the surface on which the transmitting and receiving smartphones are kept. A highly rigid or a highly soft surface are bad transmitters of vibration.
 * The distance between the transmitter and receiver also vary the performance. The optimal distance that worked out for us was 15 - 30 cm on an empty laptop cardboard box.
 * Depending on the accelerometer sensitivity, the threshold for detecting a binary 1 might have to be changed in the program.
+
+## Reference
+I. Hwang, J. Cho, and S. Oh, "Privacy-aware communication for smartphones using vibration," in *Embedded and Real-Time Computing Systems
+and Applications (RTCSA), 2012 IEEE 18th International Conference on*, pp. 447-452, IEEE, 2012.
